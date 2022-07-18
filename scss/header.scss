@@ -1,0 +1,87 @@
+.header-container {
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .leftside-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .logo-container {
+            padding-right: 40px;
+            border-right: 2px solid #ddd;
+            
+            gap: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .navbar-container {
+            padding-left: 40px;
+
+            ul {
+                gap: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                color: #333;
+                font-size: 14px;
+                font-weight: bold;
+
+                list-style-type: none;
+
+                li {
+                    cursor: pointer;
+
+                    &:hover {
+                        text-underline-offset: 5px;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .rightside-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .action-buttons {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .btn {
+                border: none;
+                outline: none;
+                padding: 10px 20px;
+            }
+
+            .btn-login {
+                border: none;
+                outline: none;
+                padding: 10px 30px;
+                border-radius: 50px;
+                background-color: white;
+                border: 2px solid #ddd;
+
+                color: #333;
+                font-size: 14px;
+                font-weight: bold;
+
+                &:hover {
+                    color: white;
+                    cursor: pointer;
+                    background-color: #ddd;
+                }
+            }
+        }
+    }
+}
