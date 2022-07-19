@@ -1,5 +1,6 @@
 @import 'variables.scss';
 @import 'header.scss';
+@import 'main.scss';
 
 * {
     margin: 0;
@@ -9,7 +10,7 @@
 }
 
 .page-wrapper {
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
